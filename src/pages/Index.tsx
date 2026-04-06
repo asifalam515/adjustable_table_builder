@@ -1,27 +1,20 @@
-import { Navbar } from "@/components/Navbar";
-import { Hero } from "@/components/Hero";
-import { ProductGrid } from "@/components/ProductGrid";
-import { HowItWorks } from "@/components/HowItWorks";
-import { ComparisonTable } from "@/components/ComparisonTable";
-import { Reviews } from "@/components/Reviews";
-import { Features } from "@/components/Features";
-import { OrderProcess } from "@/components/OrderProcess";
-import { Footer } from "@/components/Footer";
+import MaintenancePage from "@/components/MaintenancePage";
 
 const Index = () => {
   return (
     <>
-      <Navbar />
-      <main>
-        <Hero />
+      {/* <Navbar /> */}
+      <main className="p-5 m-auto">
+        <MaintenancePage />
+        {/* <Hero />
         <ProductGrid />
         <HowItWorks />
         <ComparisonTable />
         <Reviews />
         <OrderProcess />
-        <Features />
+        <Features /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
